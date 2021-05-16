@@ -10,7 +10,7 @@ words = words.split("\n")
 //turns words.txt into an array
 var badLetters = /[gkmqvwxzio]/
 var longestAcceptableWord = ""
-//defines the variables badLetters and longestAcceptableWord
+//defines the variables badLetters and longestAcceptableWord. the letters in between /[ and ]/ can be changed.
 for(var testWord of words) {
 //defines the variable testWord
   if(testWord.length <= longestAcceptableWord.length) {
